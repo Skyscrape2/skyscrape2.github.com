@@ -1,0 +1,232 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	width: 996px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#top {
+	height: 27px;
+	width: 996px;
+}
+#logo {
+	height: 65px;
+	width: 996px;
+}
+#nav {
+	background-image: url(../images/nav_bg.jpg);
+	height: 41px;
+	width: 996px;
+}
+#banner {
+	height: 293px;
+	width: 996px;
+}
+#footer {
+	height: 272px;
+	width: 996px;
+}
+#footer1 {
+	margin: 0px;
+	float: left;
+	height: 272px;
+	width: 345px;
+}
+
+#footer2 {
+	background-image: url(../images/pro_bj01.gif);
+	margin: 0px;
+	float: left;
+	height: 272px;
+	width: 217px;
+}
+#footer-1 {
+	background-image: url(../images/middle_bg.jpg);
+	float: left;
+	height: 28px;
+	width: 345px;
+}
+#footer1-2 {
+	background-image: url(../images/middle1.jpg);
+	float: left;
+	height: 133px;
+	width: 98px;
+	margin-top: 5px;
+}
+#footer1-3 {
+	font-family: "宋体";
+	font-size: 13px;
+	line-height: 20px;
+	letter-spacing: 1px;
+	text-indent: 2pc;
+	float: left;
+	height: 133px;
+	width: 240px;
+	margin-top: 5px;
+	margin-right: 3px;
+	margin-left: 4px;
+}
+#footer1-4 {
+	background-image: url(../images/middle1-1.jpg);
+	float: left;
+	height: 61px;
+	width: 167px;
+	margin-top: 45px;
+}
+
+
+
+
+#footer3 {
+	background-image: url(../images/pro_bj01.gif);
+	margin: 0px;
+	float: left;
+	height: 272px;
+	width: 217px;
+}
+#footer4 {
+	background-image: url(../images/pro_bj01.gif);
+	margin: 0px;
+	float: left;
+	height: 272px;
+	width: 217px;
+}
+#footer1-5 {
+	background-image: url(../images/middle1-2.jpg);
+	float: left;
+	height: 61px;
+	width: 167px;
+	margin-top: 45px;
+}
+#footer1-5 {
+	background-image: url(../images/middle1-2.jpg);
+	float: left;
+	height: 61px;
+	width: 168px;
+	margin-top: 45px;
+	margin-left: 10px;
+}
+#footer2-1
+{
+	height: 30px;
+	width: 217px;
+	float: left;
+	font-family: "宋体";
+	font-size: 16px;
+	font-weight: bold;
+	color: #F00;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 15px;
+}
+#footer2-2
+{
+	float: left;
+	height: 114px;
+	width: 191px;
+	background-image: url(../images/img_zt001.gif);
+	margin-left: 13px;
+}
+#footer2-3
+{
+	float: left;
+	height: 30px;
+	width: 217px;
+	font-family: "宋体";
+	font-size: 13px;
+	text-align: center;
+	line-height: 30px;
+	letter-spacing: 1px;
+	margin-top: 30px;
+}
+#footer2-4
+{
+	background-image: url(../images/img_more.gif);
+	float: left;
+	height: 21px;
+	width: 111px;
+	margin-left: 53px;
+}
+#footer3-1
+{
+	height: 30px;
+	width: 217px;
+	float: left;
+	font-family: "宋体";
+	font-size: 16px;
+	font-weight: bold;
+	color: #F00;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 15px;
+}
+#footer3-2
+{
+	float: left;
+	height: 114px;
+	width: 191px;
+	background-image: url(../images/img_dz001.gif);
+	margin-left: 13px;
+}
+#footer3-3
+{
+	float: left;
+	height: 30px;
+	width: 217px;
+	font-family: "宋体";
+	font-size: 13px;
+	text-align: center;
+	line-height: 30px;
+	letter-spacing: 1px;
+	margin-top: 30px;
+}
+#footer3-4
+{
+	background-image: url(../images/img_more.gif);
+	float: left;
+	height: 21px;
+	width: 111px;
+	margin-left: 53px;
+}
+#footer4-1
+{
+	height: 30px;
+	width: 217px;
+	float: left;
+	font-family: "宋体";
+	font-size: 16px;
+	font-weight: bold;
+	color: #F00;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 15px;
+}
+#footer4-2
+{
+	float: left;
+	height: 114px;
+	width: 191px;
+	background-image: url(../images/img_sk001.gif);
+	margin-left: 13px;
+}
+#footer4-3
+{
+	float: left;
+	height: 30px;
+	width: 217px;
+	font-family: "宋体";
+	font-size: 13px;
+	text-align: center;
+	line-height: 30px;
+	letter-spacing: 1px;
+	margin-top: 30px;
+}
+#footer4-4
+{
+	background-image: url(../images/img_more.gif);
+	float: left;
+	height: 21px;
+	width: 111px;
+	margin-left: 53px;
+}

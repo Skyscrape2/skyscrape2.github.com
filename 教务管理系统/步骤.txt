@@ -1,0 +1,237 @@
+1、桌面上新建一个文件夹名为【教务管理系统】
+→将素材文件夹【images】和【文字素材】复制进去
+→在【教务管理系统】文件夹中新建一个文件夹【css】
+
+2、打开dwcs6→选dreamweaver站点→站点名称【教务管理系统】
+→【本地站点文件夹】选择桌面上的【教务管理系统】文件夹→点击【保存】
+→此时在右下角的【文件】窗口中就可以看见已经建立的站点【教务管理系统】
+→站点目录下有刚才复制过去的【images】和【文字素材】和【css】文件夹
+
+3、选【HTML】→按ctrl+s→以index的文件名保存在【教务管理系统】文件夹中
+→在上面的【标题】中输入将【无标题文档】改为【教务管理系统】→回车
+
+4、DW中→点【文件】【新建】【空白页】【CSS】【创建】
+→按ctrl+s→以indexcss.css的文件名保存在【css】文件夹中
+→关闭【indexcss.css】这个文件，回到【index.html】文件
+→在右边的【CSS面板】中点【附加样式表】按钮
+→浏览选中indexcss.css文件→确定
+→此时【index.html】和【indexcss.css】外联样式表就联合在一起了
+
+5、重定义【body】标签
+→在右边的【css样式】面板的空白处右键→新建→选【标签（重新定义HTML元素）】
+→选择器名称中选【body】→确定
+→【背景】→Background-image选【body--bg】
+→Background-repeat选【repeat-x】→确定
+
+6、插入一个div将其ID填为【container】参数如下→去掉里面的文字
+#container
+{
+	width: 898px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+7、光标放在【container】中
+→插入一个div将其ID填为【head】参数如下→去掉里面的文字
+#head
+{
+	float: left;
+	height: 100px;
+	width: 898px;
+}
+
+8、光标放在【container】中【head】之后
+→插入一个div将其ID填为【middle】参数如下→去掉里面的文字
+#middle
+{
+	background-image: url(../images/tr-bg.jpg);
+	float: left;
+	height: 314px;
+	width: 898px;
+}
+
+9、光标放在【container】中【middle】之后
+→插入一个div将其ID填为【footer】参数如下→去掉里面的文字
+→输入【版权所有违者必究】
+#footer
+{
+	font-family: "宋体";
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: bold;
+	text-align: center;
+	float: left;
+	height: 30px;
+	width: 898px;
+}
+
+10、光标放在【head】中
+→插入一个div将其ID填为【head-left】参数如下→去掉里面的文字
+#head-left
+{
+	background-image: url(../images/jiaowuguanli.png);
+	float: left;
+	height: 24px;
+	width: 143px;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+11、光标放在【head】中【head-left】之后
+→插入一个div将其ID填为【head-right】参数如下→去掉里面的文字
+→输入【大正软件股份有限公司（回车）DA ZHENG SOFT CO.LTD】
+#head-right
+{
+	float: right;
+	height: 30px;
+	width: 150px;
+	margin-top: 50px;
+	margin-right: 50px;
+	font-family: "宋体";
+	font-size: 14px;
+}
+
+12、光标放在【middle中】中
+→插入一个div将其ID填为【login】参数如下→去掉里面的文字
+#login
+{
+	float: right;
+	height: 300px;
+	width: 300px;
+	margin-right: 80px;
+	background-image: url(../images/form-bg.jpg);
+	margin-top: 7px;
+}
+
+13、光标放在【login】中
+→插入一个div将其ID填为【login-1】参数如下→去掉里面的文字
+→输入【用户登录】
+#login-1
+{
+	float: left;
+	height: 50px;
+	width: 250px;
+	margin-left: 30px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #666;
+	font-family: "宋体";
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 50px;
+}
+
+14、光标放在【login-1】之后
+→插入一个div将其ID填为【login-2】参数如下→去掉里面的文字
+#login-2
+{
+	float: left;
+	height: 30px;
+	width: 250px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+15、光标放在【login-2】之后
+→插入一个div将其ID填为【login-3】参数如下→去掉里面的文字
+#login-3
+{
+	float: left;
+	height: 30px;
+	width: 250px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+16、光标放在【login-3】之后
+→插入一个div将其ID填为【login-4】参数如下→去掉里面的文字
+#login-4
+{
+	float: left;
+	height: 30px;
+	width: 250px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+17、光标放在【login-4】之后
+→插入一个div将其ID填为【login-5】参数如下→去掉里面的文字
+#login-5
+{
+	float: left;
+	height: 30px;
+	width: 250px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+18、光标放在【login-5】之后
+→插入一个div将其ID填为【login-6】参数如下→去掉里面的文字
+#login-6
+{
+	float: left;
+	height: 30px;
+	width: 250px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+19、光标放在【login-6】之后
+→插入一个div将其ID填为【login-7】参数如下→去掉里面的文字
+#login-7
+{
+	float: left;
+	height: 30px;
+	width: 250px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+20、光标放在【login-2】中
+→插入→表单→文本域→ID填username→标签填【用户名：】
+→确定→是否添加表单标签选【否】
+
+21、光标放在【login-3】中
+→插入→表单→文本域→ID填pwd→标签填【密　码：】
+→确定→是否添加表单标签选【否】
+
+22、光标放在【login-4】中
+→插入→表单→文本域→ID填yzm→标签填【验证码：】
+→确定→是否添加表单标签选【否】
+
+23、光标放在【login-5】中
+→输入文字【验证码：】再输入一个半角空格
+→插入验证码的图片
+
+24、光标放在【login-6】中
+→插入→表单→单选按钮组→名称【shenfen】
+→下面框中的【标签】和【值】分别为
+【部门】【部门】
+【教师】【教师】
+【学生】【学生】
+【访客】【访客】
+共四组
+→确定→是否添加表单标签选【否】
+→切换到代码视图→如果有的话，去掉<br />和<p>标签
+→切换到设计视图→此时单选按钮组就在一行了
+
+25、光标放在【login-7】中
+→插入→表单→按钮→标签ID都不填直接确定
+→是否添加表单标签选【否】
+→光标放在刚才的按钮后→重复一次上面的操作
+→然后选中第二个按钮→下面选【重设表单】
+→在提交按钮前敲4个全角空格
+→在重置按钮前敲2个全角空格
+
+26、点工具栏中的【检查浏览器兼容性】会在下面弹出一个新的框
+→点这个框左边的小三角→设置→选择浏览器的版本→确定
+→检查后会可能会报兼容性错误显示在框体中
+→如果有就修改，如果没有就算了
+
+27、点工具条上的地球仪选【在IE中预览】
+
+
+
+
+

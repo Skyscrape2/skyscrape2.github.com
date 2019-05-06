@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+#container {
+	background-image: url(../images/bot_bg.jpg);
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#head {
+	background-image: url(../images/top_bg.jpg);
+	float: left;
+	height: 92px;
+	width: 100%;
+}
+#logo {
+	background-image: url(../images/logo.png);
+	float: left;
+	height: 142px;
+	width: 340px;
+}
+#nav {
+	float: left;
+	height: 50px;
+	width: 500px;
+	margin-top: 92px;
+	margin-right: 50px;
+}
+#nav {
+	float: right;
+	height: 50px;
+	width: 500px;
+	margin-top: 92px;
+	margin-right: 50px;
+}
+#Middle {
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	float: left;
+	height: 600px;
+	width: 100%;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999;
+}
+#footer1 {
+	font-family: "宋体";
+	line-height: 50px;
+	font-weight: bold;
+	background-image: url(../images/bot_bg.jpg);
+	text-align: center;
+	float: left;
+	height: 46px;
+	width: 100%;
+}
